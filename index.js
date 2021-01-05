@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-console.log("Hello");
+console.log("coucou");
 
 process.on("SIGINT", () => {
   console.log("Caught interrupt signal");
